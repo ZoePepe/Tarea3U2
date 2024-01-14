@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+
+@media(max-width:800px){
+
+#contenedor {
+	background: #8FA68E;
+	display: flex;
+	flex-direction: column;
+
+
+}
+nav {
+	background: orange;
+	width: auto;
+}
+ul {
+	list-style-type:none;
+	align-content: center;
+	
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	margin:auto;
+	width: 100%;
+}
+aside {
+	background: #CCC59E;
+	width: auto;
+}
+
+}
